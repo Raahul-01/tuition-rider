@@ -1,0 +1,10 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin and authentication routes
+Disallow: /admin/
+Disallow: /auth/
+
+# Sitemap location
+Sitemap: https://tuitionrider.com/sitemap.xml 
